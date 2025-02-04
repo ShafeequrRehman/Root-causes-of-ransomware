@@ -50,8 +50,8 @@
     .chart-container3 {
       position: relative;
       height: 300px;
-      padding-left: 60px;
-      padding-right: 40px;
+      padding-left: 5%;
+      padding-right: 2%;
       padding-bottom: 20px;
       
     }
@@ -185,6 +185,27 @@
     /* position: relative !important; */
     z-index: 0 !important;
   }
+  .bars3 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      height: 100%;
+      width: calc(100% - -300px);
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+    .x-axis-labels3 {
+        display: flex;
+        text-wrap:wrap;
+        position: absolute;
+        bottom: -24px;
+        left: 78px;
+        justify-content: space-around;
+        width: calc(100% - -189px);
+        font-size: 0.6rem;
+
+      color: rgba(255, 255, 255, 0.863);
+    }
   .barmain3 {
       flex: 1;
       z-index: 2 !important;
@@ -196,17 +217,7 @@
       padding-bottom: 0px;
       background-color:#1d1d25; /* Static semi-transparent background */
     }
-    .x-axis-labels3 {
-    position: absolute;
-    bottom: 1px;
-    left: 67px;
-    display: flex
-;
-    justify-content: space-around;
-    width: calc(100% - 24%);
-    font-size: 0.2rem;
-    color: rgba(255, 255, 255, 0.863);
-}
+    
     .font-mobile3{
     font-size:xx-small;
   }
@@ -238,27 +249,7 @@
     /* position: relative !important; */
     z-index: 0 !important;
   }
-  .bars3 {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-end;
-      height: 100%;
-      width: calc(100% - -300px);
-      padding-left: 20px;
-      padding-right: 10px;
-    }
-    .x-axis-labels3 {
-        display: flex;
-        text-wrap:wrap;
-        position: absolute;
-        bottom: -24px;
-        left: 78px;
-        justify-content: space-around;
-        width: calc(100% - -189px);
-        font-size: 0.6rem;
-
-      color: rgba(255, 255, 255, 0.863);
-    }
+  
     .grid-line-3m3 {
     bottom: 130px; /* 80% height for $3 Million */
   }
@@ -331,7 +322,7 @@
     }
     .grid-line3 {
     position: absolute !important;
-    left: 70px;
+    left: 5%;
     width: calc(95% - 60px); /* Match chart container width */
     height: 0.5px;
     background-color: #afafaf3b; /* Line color */
